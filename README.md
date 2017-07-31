@@ -5,7 +5,9 @@ DrawTop is online-based, cross platform desktop application for [Draw.io diagram
 
 **Important note:**
 ```
-All product names, logos, and brands are property of their respective owners. All company, product and service names used in this project are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
+All product names, logos, and brands are property of their respective owners.
+All company, product and service names used in this project are for identification purposes only.
+Use of these names, logos, and brands does not imply endorsement.
 ```
 
 ----------
