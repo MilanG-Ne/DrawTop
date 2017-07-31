@@ -1,0 +1,36 @@
+{
+  "name": "drawtop",
+  "productName": "DrawTop",
+  "version": "1.0.0",
+  "description": "DrawTop - unofficial Draw.io desktop application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-win": "electron-packager . --asar=true --icon=icons/drawtop.icon --arch=all --purge=true --out=builds --overwrite",
+    "pack-mac": "electron-packager . --asar=true --icon=icons/drawtop.icns --platform=darwin --arch=x64 --purge=true --out=builds --overwrite",
+    "pack-linux": "electron-packager . --asar=true --icon=icons/drawtop.png --platform=linux --arch=all --purge=true --out=builds --overwrite"
+  },
+  "repository": "https://github.com/MilanG-Ne/DrawTop",
+  "keywords": [
+    "DrawTop",
+    "Draw.io",
+    "online",
+    "desktop",
+    "electron",
+    "application"
+  ],
+  "bugs": {
+    "email": "ikuinenvapaus@gmail.com",
+    "url": "https://github.com/MilanG-Ne/DrawTop/issues"
+  },
+  "author": "MilanG-Ne <ikuinenvapaus@gmail.com>",
+  "homepage": "https://github.com/MilanG-Ne",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  },
+  "dependencies": {
+    "is-online": "^7.0.0"
+  }
+}

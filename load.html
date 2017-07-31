@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--
+
+  All product names, logos, and brands are property of their respective owners.
+  All company, product and service names used in this project are for identification purposes only.
+  Use of these names, logos, and brands does not imply endorsement.
+  
+
+  Copyright 2017 MilanG-Ne <https://github.com/MilanG-Ne>
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at:
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+      text-align: center;
+      overflow: hidden;
+      background: #c6e6ff;
+    }
+
+    h1 {
+      position: relative;
+      z-index: 3;
+      color: #3b3b3b;
+      font-size: 36px;
+      margin-top: 94px;
+      font-weight: normal;
+    }
+
+    img {
+      opacity: .6;
+      position: absolute;
+      top: 6px;
+      left: calc(50% - 53px);
+      z-index: 1;
+      width: 106px;
+      height: 106px;
+    }
+
+    #loader {
+      animation: loader 5s linear infinite;
+
+      position: absolute;
+      top: 54px;
+      left: calc(50% - 20px);
+      z-index: 2;
+    }
+
+    @keyframes loader {
+      0% {
+        left: -70px
+      }
+      100% {
+        left: 320px;
+      }
+    }
+
+    #box {
+      width: 50px;
+      height: 50px;
+      background-color: rgba(0, 140, 240, .7);
+      animation: animate .5s linear infinite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 3px;
+      border: 1px solid #007fe0;
+    }
+
+    @keyframes animate {
+      17% {
+        border-bottom-right-radius: 3px;
+      }
+      25% {
+        transform: translateY(7px) rotate(22.5deg);
+      }
+      50% {
+        transform: translateY(16px) scale(1, .9) rotate(45deg);
+        border-bottom-right-radius: 40px;
+      }
+      75% {
+        transform: translateY(7px) rotate(67.5deg);
+      }
+      100% {
+        transform: translateY(0) rotate(90deg);
+      }
+    }
+
+    #shadow {
+      width: 50px;
+      height: 5px;
+      background: #5698df;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      border-radius: 50%;
+      animation: shadow .5s linear infinite;
+    }
+
+    @keyframes shadow {
+      50% {
+        transform: scale(1.2, 1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./img/drawtop-logo.png">
+  <h1>LOADING</h1>
+  <div id="loader">
+    <div id="shadow"></div>
+    <div id="box"></div>
+  </div>
+</body>
+
+</html>
