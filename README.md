@@ -1,5 +1,15 @@
 # DrawTop - Draw.io Desktop Application (Unofficial)
 
+## Update
+If you are looking for a way to use Draw.io as a desktop application,
+you can now [download official Draw.io desktop versions](https://about.draw.io/integrations/#integrations_offline).
+
+Or, if you're using Google Chrome, simply visit Draw.io website,
+click the Chrome menu button (top right corner),
+go to "More tools", "Add to desktop".
+Enter shortcut name, and leave "Open as window" checked.
+## End Update
+
 DrawTop is online-based, cross platform desktop application for [Draw.io diagraming software](https://www.draw.io) (**`unofficial`**). It is built using web technologies (HTML, CSS and JavaScript) and [electron framework](https://electron.atom.io/).
 
 
