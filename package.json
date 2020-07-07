@@ -27,7 +27,7 @@
   "homepage": "https://github.com/MilanG-Ne",
   "license": "Apache-2.0",
   "devDependencies": {
-    "electron": "^1.6.11",
+    "electron": "^9.1.0",
     "electron-packager": "^8.7.2"
   },
   "dependencies": {
